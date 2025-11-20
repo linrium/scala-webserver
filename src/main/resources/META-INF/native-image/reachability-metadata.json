@@ -1,0 +1,1245 @@
+{
+  "reflection": [
+    {
+      "type": "akka.actor.ActorCell",
+      "fields": [
+        {
+          "name": "akka$actor$dungeon$Children$$_childrenRefsDoNotCallMeDirectly"
+        },
+        {
+          "name": "akka$actor$dungeon$Children$$_functionRefsDoNotCallMeDirectly"
+        },
+        {
+          "name": "akka$actor$dungeon$Children$$_nextNameDoNotCallMeDirectly"
+        },
+        {
+          "name": "akka$actor$dungeon$Dispatch$$_mailboxDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.ActorSystemImpl",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.Address",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.CoordinatedShutdown",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.CoordinatedShutdown$$anon$1",
+      "fields": [
+        {
+          "name": "0bitmap$3"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.CoordinatedShutdown$tasks$",
+      "fields": [
+        {
+          "name": "0bitmap$2"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.LightArrayRevolverScheduler",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "com.typesafe.config.Config",
+            "akka.event.LoggingAdapter",
+            "java.util.concurrent.ThreadFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.LightArrayRevolverScheduler$TaskHolder",
+      "fields": [
+        {
+          "name": "task"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.LightArrayRevolverScheduler$TaskQueue[]"
+    },
+    {
+      "type": "akka.actor.LocalActorRefProvider",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "akka.actor.ActorSystem$Settings",
+            "akka.event.EventStream",
+            "akka.actor.DynamicAccess"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.LocalActorRefProvider$Guardian",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.SupervisorStrategy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.LocalActorRefProvider$SystemGuardian",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.SupervisorStrategy",
+            "akka.actor.ActorRef"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.Props$EmptyActor"
+    },
+    {
+      "type": "akka.actor.RepointableActorRef",
+      "fields": [
+        {
+          "name": "_cellDoNotCallMeDirectly"
+        },
+        {
+          "name": "_lookupDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.typed.ActorRef"
+    },
+    {
+      "type": "akka.actor.typed.internal.MiscMessageSerializer",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.typed.internal.adapter.ActorRefAdapter"
+    },
+    {
+      "type": "akka.actor.typed.internal.adapter.ActorSystemAdapter",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.typed.internal.adapter.ActorSystemAdapter$LoadTypedExtensions$",
+      "fields": [
+        {
+          "name": "MODULE$"
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.typed.internal.receptionist.DefaultServiceKey"
+    },
+    {
+      "type": "akka.actor.typed.internal.receptionist.ServiceKeySerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.actor.typed.receptionist.Receptionist$",
+      "fields": [
+        {
+          "name": "MODULE$"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.AbstractNodeQueue",
+      "fields": [
+        {
+          "name": "_tailDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.AbstractNodeQueue$Node",
+      "fields": [
+        {
+          "name": "_nextDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.BoundedControlAwareMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.BoundedDequeBasedMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.BoundedMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.ControlAwareMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.DequeBasedMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.Dispatcher"
+    },
+    {
+      "type": "akka.dispatch.Dispatcher$LazyExecutorServiceDelegate",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.Mailbox",
+      "fields": [
+        {
+          "name": "_statusDoNotCallMeDirectly"
+        },
+        {
+          "name": "_systemQueueDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.MessageDispatcher",
+      "fields": [
+        {
+          "name": "_inhabitantsDoNotCallMeDirectly"
+        },
+        {
+          "name": "_shutdownScheduleDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.MessageDispatcher$",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.MultipleConsumerSemantics"
+    },
+    {
+      "type": "akka.dispatch.SingleConsumerOnlyUnboundedMailbox",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ActorSystem$Settings",
+            "com.typesafe.config.Config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.UnboundedControlAwareMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.UnboundedDequeBasedMessageQueueSemantics"
+    },
+    {
+      "type": "akka.dispatch.UnboundedMailbox",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ActorSystem$Settings",
+            "com.typesafe.config.Config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.dispatch.UnboundedMessageQueueSemantics"
+    },
+    {
+      "type": "akka.event.DeadLetterListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "akka.event.EventStream",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.event.EventStreamUnsubscriber",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.event.EventStream",
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.event.LoggerMailboxType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ActorSystem$Settings",
+            "com.typesafe.config.Config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.event.LoggerMessageQueueSemantics"
+    },
+    {
+      "type": "akka.event.slf4j.Slf4jLogger",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "akka.event.slf4j.Slf4jLoggingFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ActorSystem$Settings",
+            "akka.event.EventStream"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.http.impl.engine.client.PoolMasterActor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "akka.http.impl.engine.parsing.HttpHeaderParser",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.http.impl.engine.rendering.HttpResponseRendererFactory",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.http.impl.util.SettingsCompanionImpl$",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.http.scaladsl.server.Directives$",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.http.scaladsl.server.PathMatchers$",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.http.scaladsl.server.directives.PathDirectives$",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.io.SelectionHandler",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.io.SelectionHandlerSettings"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.io.TcpListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ActorRef",
+            "akka.io.TcpExt",
+            "akka.io.ChannelRegistry",
+            "akka.actor.ActorRef",
+            "akka.io.Tcp$Bind"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.io.TcpManager",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.io.TcpExt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.parboiled2.support.AlternativeUnpacks",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.pattern.PromiseActorRef",
+      "fields": [
+        {
+          "name": "_stateDoNotCallMeDirectly"
+        },
+        {
+          "name": "_watchedByDoNotCallMeDirectly"
+        }
+      ]
+    },
+    {
+      "type": "akka.routing.ConsistentHashingPool",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "com.typesafe.config.Config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.routing.RoundRobinPool",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "com.typesafe.config.Config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.routing.RoutedActorCell$RouterActorCreator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.routing.RouterConfig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.BooleanSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.ByteArraySerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.ByteStringSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.DisabledJavaSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.IntSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.LongSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.SerializationExtension$",
+      "fields": [
+        {
+          "name": "MODULE$"
+        }
+      ]
+    },
+    {
+      "type": "akka.serialization.StringSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.Attributes$SourceLocation",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.SinkRef"
+    },
+    {
+      "type": "akka.stream.SourceRef"
+    },
+    {
+      "type": "akka.stream.SystemMaterializer$",
+      "fields": [
+        {
+          "name": "MODULE$"
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.impl.PhasedFusingActorMaterializer",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.impl.fusing.GraphInterpreter",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.impl.fusing.GraphInterpreterShell",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.impl.streamref.StreamRefsProtocol"
+    },
+    {
+      "type": "akka.stream.serialization.StreamRefSerializer",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "akka.actor.ExtendedActorSystem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "akka.stream.stage.GraphStageLogic[]"
+    },
+    {
+      "type": "akka.util.ByteString$ByteString1"
+    },
+    {
+      "type": "akka.util.ByteString$ByteString1C"
+    },
+    {
+      "type": "akka.util.ByteString$ByteStrings"
+    },
+    {
+      "type": "akka.util.Collections$PartialImmutableValuesIterable",
+      "fields": [
+        {
+          "name": "0bitmap$1"
+        }
+      ]
+    },
+    {
+      "type": "apple.security.AppleProvider",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "byte[]"
+    },
+    {
+      "type": "ch.qos.logback.classic.BasicConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "ch.qos.logback.classic.joran.SerializedModelConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "ch.qos.logback.classic.spi.LogbackServiceProvider"
+    },
+    {
+      "type": "ch.qos.logback.classic.util.DefaultJoranConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.AESCipher$General",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.ARCFOURCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DESCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DESedeCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DHParameters",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.TlsMasterSecretGenerator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.io.Serializable"
+    },
+    {
+      "type": "java.lang.Boolean",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ClassValue"
+    },
+    {
+      "type": "java.lang.Class[]"
+    },
+    {
+      "type": "java.lang.Integer"
+    },
+    {
+      "type": "java.lang.Long"
+    },
+    {
+      "type": "java.lang.Object[]"
+    },
+    {
+      "type": "java.lang.String",
+      "fields": [
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.String[]"
+    },
+    {
+      "type": "java.lang.invoke.VarHandle",
+      "methods": [
+        {
+          "name": "releaseFence",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.security.AlgorithmParametersSpi"
+    },
+    {
+      "type": "java.security.KeyStoreSpi"
+    },
+    {
+      "type": "scala.Boolean"
+    },
+    {
+      "type": "scala.Int"
+    },
+    {
+      "type": "scala.Long"
+    },
+    {
+      "type": "sun.misc.Unsafe",
+      "fields": [
+        {
+          "name": "theUnsafe"
+        }
+      ]
+    },
+    {
+      "type": "sun.reflect.Reflection"
+    },
+    {
+      "type": "sun.security.pkcs12.PKCS12KeyStore",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.DSA$SHA224withDSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.DSA$SHA256withDSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA224",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA256",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA5$SHA384",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA5$SHA512",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.X509Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.PSSParameters",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSAKeyFactory$Legacy",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSAPSSSignature",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSASignature$SHA224withRSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.AuthorityInfoAccessExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.AuthorityKeyIdentifierExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.BasicConstraintsExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.CRLDistributionPointsExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.CertificatePoliciesExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.ExtendedKeyUsageExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.KeyUsageExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.NetscapeCertTypeExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.PrivateKeyUsageExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.SubjectKeyIdentifierExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/MANIFEST.MF"
+    },
+    {
+      "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.InetAddressResolverProvider"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.URLStreamHandlerProvider"
+    },
+    {
+      "glob": "META-INF/services/java.nio.channels.spi.SelectorProvider"
+    },
+    {
+      "glob": "META-INF/services/java.nio.charset.spi.CharsetProvider"
+    },
+    {
+      "glob": "META-INF/services/java.time.zone.ZoneRulesProvider"
+    },
+    {
+      "glob": "META-INF/services/org.slf4j.spi.SLF4JServiceProvider"
+    },
+    {
+      "glob": "akka-http-version.conf"
+    },
+    {
+      "glob": "akka-http-version.json"
+    },
+    {
+      "glob": "akka-http-version.properties"
+    },
+    {
+      "glob": "application.conf"
+    },
+    {
+      "glob": "application.json"
+    },
+    {
+      "glob": "application.properties"
+    },
+    {
+      "glob": "logback-test.scmo"
+    },
+    {
+      "glob": "logback-test.xml"
+    },
+    {
+      "glob": "logback.scmo"
+    },
+    {
+      "glob": "logback.xml"
+    },
+    {
+      "glob": "reference.conf"
+    },
+    {
+      "glob": "version.conf"
+    },
+    {
+      "glob": "version.json"
+    },
+    {
+      "glob": "version.properties"
+    },
+    {
+      "module": "java.base",
+      "glob": "jdk/internal/icu/impl/data/icudt76b/nfc.nrm"
+    },
+    {
+      "module": "java.base",
+      "glob": "sun/net/www/content-types.properties"
+    }
+  ]
+}
